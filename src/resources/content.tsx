@@ -115,4 +115,11 @@ const contact: any = {
   description: `Haktan Teymur İnşaat ile iletişime geçin.`,
 };
 
-export { person, social, newsletter, home, about, projects, services, contact };
+const gallery: any = {
+  path: "/gallery",
+  label: "Galeri",
+  title: `Video Galeri – ${person.name}`,
+  description: ``,
+};
+
+export { person, social, newsletter, home, about, projects, services, contact, gallery };

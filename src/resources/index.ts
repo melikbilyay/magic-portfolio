@@ -8,6 +8,7 @@ export {
   projects,
   services,
   contact,
+  gallery,
 } from "./content";
 
 export {

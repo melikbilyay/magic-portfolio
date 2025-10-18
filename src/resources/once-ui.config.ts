@@ -22,11 +22,12 @@ const routes: RoutesConfig = {
   "/services": true,
   "/projects": true,
   "/contact": true,
+  "/gallery": true,
 };
 
 const display: DisplayConfig = {
-  location: true,
-  time: true,
+  location: false,
+  time: false,
   themeSwitcher: true,
 };
 

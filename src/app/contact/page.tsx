@@ -94,6 +94,16 @@ export default function Contact() {
           </Column>
         }
       </Column>
+
+      <Column fillWidth gap="m" paddingTop="xl">
+        <Heading as="h2" variant="display-strong-l" align="center">Bize Ulaşın</Heading>
+        <Text align="center" onBackground="neutral-weak">Aşağıdaki bilgilerden bize ulaşabilirsiniz.</Text>
+        <Column gap="s" horizontal="center">
+          <Text>Telefon: [Telefon numaranızı buraya ekleyin]</Text>
+          <Text>E-posta: [E-posta adresinizi buraya ekleyin]</Text>
+          <Text>Adres: [Adresinizi buraya ekleyin]</Text>
+        </Column>
+      </Column>
     </Column>
   );
 }

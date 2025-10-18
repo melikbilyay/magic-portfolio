@@ -66,6 +66,7 @@ export default function Home() {
           fillWidth
           fillHeight
           items={sliderImages.map(image => ({ slide: image, alt: home.title }))}
+          style={{ maskImage: 'linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%)' }}
         />
         <Column 
           position="absolute" 
